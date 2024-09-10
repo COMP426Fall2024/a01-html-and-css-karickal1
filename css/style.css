@@ -1,0 +1,158 @@
+/* Base Styles */
+body {
+    font-family: 'Arial', sans-serif; /* Base font for body */
+    background-color: #f4f4f4; /* Light gray background for the page */
+    color: #333; /* Dark text color for readability */
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Styling */
+header {
+    background-color: #333366; /* Dark blue background */
+    color: #fff; /* White text */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+header h1 {
+    font-family: 'Merriweather', serif; /* Serif font for the header */
+    font-size: 2.5em; /* Larger font size for the main heading */
+    margin: 0;
+}
+
+/* Main Content Area */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Section Styling */
+section {
+    margin-bottom: 20px;
+}
+
+section h2 {
+    font-family: 'Merriweather', serif; /* Serif font for section headings */
+    color: #333366; /* Dark blue text for headings */
+}
+
+section p {
+    font-size: 1.2em; /* Slightly larger text for better readability */
+    line-height: 1.6; /* Improve readability */
+    margin-bottom: 20px;
+}
+
+section ol {
+    margin-left: 20px;
+}
+
+/* Lists */
+ul.mythology-list {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+    display: flex;
+    justify-content: space-around; /* Space out list items */
+    flex-wrap: wrap; /* Wrap items to the next line on smaller screens */
+}
+
+ul.mythology-list li {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+ul.mythology-list img.mythology-image {
+    width: 150px; /* Fixed width for images */
+    height: 150px; /* Fixed height for images */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+ul.mythology-list span.mythology-name {
+    display: block;
+    margin-top: 10px;
+    font-family: 'Merriweather', serif; /* Serif font for names */
+    font-size: 1.2em;
+    color: #333366; /* Dark blue text */
+    text-decoration: none; /* Remove underline from names */
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    text-align: left;
+}
+
+table th {
+    background-color: #333366; /* Dark blue background for header */
+    color: #fff; /* White text */
+}
+
+table td {
+    background-color: #f9f9f9; /* Light background for table cells */
+    border-bottom: 1px solid #ddd; /* Light gray border for rows */
+}
+
+.weapon-container {
+    text-align: center;
+}
+
+.weapon-alt {
+    font-family: 'Merriweather', serif; /* Serif font for captions */
+    font-size: 1.1em;
+    margin-bottom: 10px; /* Space between caption and image */
+}
+
+.icon {
+    width: 150px; /* Fixed width for icons */
+    height: 150px; /* Fixed height for icons */
+    display: block; /* Ensures image is centered horizontally */
+    margin: 0 auto; /* Centers the image */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333366; /* Dark blue background */
+    color: #fff; /* White text */
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Button Styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff; /* White text */
+    background-color: #333366; /* Dark blue background */
+    border: none;
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Merriweather', serif; /* Serif font for buttons */
+    font-size: 1em;
+}
+
+.button:hover {
+    background-color: #555; /* Darker blue on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
